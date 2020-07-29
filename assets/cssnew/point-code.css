@@ -1,0 +1,133 @@
+﻿.f-l {
+    float: left;
+}
+.f-r {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+.point-word-code {
+    position: relative;
+}
+.point-components-wrap {
+    position: relative;
+    width: 100%;
+}
+.point-code-wrap {
+    position: absolute;
+    bottom: -120px;
+    left: 355px;
+    width: 340px;
+    padding: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: none;
+    z-index: 999;
+    box-shadow: 0 0 10px #cccccc;
+}
+.point-code-wrap .point-wrap {
+    position: relative;
+    width: 100%;
+    font-size: 0;
+}
+.point-code-wrap .point-img-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    overflow: hidden;
+    font-size: 0;
+    color: #fff;
+}
+.point-code-wrap .point-img-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.point-code-wrap img.word {
+    display: inline;
+    width: 126px;
+    vertical-align: sub;
+}
+.point-code-wrap .word-wrap {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    vertical-align: middle;
+}
+.point-code-wrap .c-important {
+    color: #1c75e4;
+}
+.point-code-wrap .point {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid #fff;
+    background-color: #1c75e4;
+    /*opacity: .9;*/
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.error-tip {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 30px;
+    background-color: #ff8a60;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+    z-index: 10;
+}
+.operation {
+    padding: 10px 0;
+}
+.operation .f-l {
+    padding-top: 10px;
+}
+.operation .f-l span {
+    margin-right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/sprite.1.4.6.png") no-repeat;
+    cursor: pointer;
+}
+.operation .f-l .refresh {
+    background-position: 0 67.01031%;
+}
+.operation .submit-yzm {
+    display: inline-block;
+    width: 80px;
+    line-height: 35px;
+    background-color: #539ffe;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.yzm-code-input {
+    line-height: 48px;
+    text-align: center;
+    color: #45494c;
+    background-color: #F8F9FB;
+    border: 1px solid #D7DAE0;
+    font-size: 14px;
+    cursor: pointer;
+}
+.yzm-code-input:hover {
+    color: #1c75e4;
+}

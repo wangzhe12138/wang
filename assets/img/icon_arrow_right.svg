@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_arrow_right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-650.000000, -388.000000)">
+            <g id="Group-5" transform="translate(420.000000, 372.000000)">
+                <g id="Group-3">
+                    <g id="icon_arrow_right" transform="translate(238.000000, 24.000000) scale(-1, 1) rotate(90.000000) translate(-238.000000, -24.000000) translate(229.500000, 15.500000)">
+                        <rect id="Rectangle" x="1" y="0" width="14" height="12.9230769"></rect>
+                        <polyline id="Path" stroke="#A0A0A2" stroke-width="1.5" transform="translate(8.000000, 7.000000) rotate(45.000000) translate(-8.000000, -7.000000) " points="12 3 11.6923077 10.6923077 4 11"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

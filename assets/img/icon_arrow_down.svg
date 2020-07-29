@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_arrow_down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-799.000000, -288.000000)">
+            <g id="Group-23" transform="translate(701.000000, 264.000000)">
+                <rect id="Rectangle" stroke="#6AA2E4" opacity="0.800000012" x="0.5" y="0.5" width="797" height="51"></rect>
+                <rect id="Rectangle" stroke="#6AA2E4" x="0.5" y="0.5" width="119" height="51"></rect>
+                <path d="M103.153644,24.1843731 L107.726636,29.6719631 C107.797349,29.7568185 107.785884,29.8829314 107.701029,29.9536443 C107.665086,29.9835968 107.619779,30 107.572992,30 L98.4270083,30 C98.3165514,30 98.2270083,29.9104569 98.2270083,29.8 C98.2270083,29.7532127 98.2434116,29.7079061 98.2733641,29.6719631 L102.846356,24.1843731 C102.917069,24.0995177 103.043182,24.0880529 103.128037,24.1587657 C103.137329,24.1665096 103.1459,24.1750805 103.153644,24.1843731 Z" id="icon_arrow_down" fill="#CDCDCF" transform="translate(103.000000, 27.000000) scale(1, -1) translate(-103.000000, -27.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

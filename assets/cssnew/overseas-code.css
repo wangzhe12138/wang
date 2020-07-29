@@ -1,0 +1,65 @@
+﻿.overseas-phone-wrap {
+  position: relative;
+}
+.overseas-phone-wrap .area-code {
+    /*padding-left: 10px;*/
+    position: absolute;
+    width: 60px;
+    line-height: 48px;
+    color: #000;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-align: center;
+    z-index: 99;
+}
+.overseas-phone-wrap .area-code:after {
+    position: absolute;
+    content: "";
+    top: 23px;
+    right: -8px;
+    border-top: 5px solid #4C4C4E;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+.overseas-phone-wrap input {
+    padding-left: 75px !important;
+    box-sizing: border-box;
+}
+
+.overseas-phone-wrap .panel {
+        width: 100%;
+        height: 200px;
+        overflow: auto;
+        position: absolute;
+        bottom: -185px;
+        z-index: 999;
+        background-color: #fff;
+        box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.06);
+    }
+.overseas-phone-wrap .panel dt {
+    padding: 0 17px;
+    color: #A0A0A2;
+    font-size: 13px;
+    line-height: 36px;
+    text-align: left;
+}
+.overseas-phone-wrap .panel dl {
+    margin: 0;
+}
+.overseas-phone-wrap .panel dd {
+    margin: 0;
+    padding: 0 17px;
+    line-height: 32px;
+    color: #4C4C4E;
+    font-size: 14px;
+    cursor: pointer;
+}
+.overseas-phone-wrap .panel dd.active {
+    background-color: #F8F8FA;
+}
+.overseas-phone-wrap .panel dd:hover {
+    background-color: #F8F8FA;
+}
+.overseas-phone-wrap .panel dd .f-r {
+        color: #88888A;
+    }

@@ -1,0 +1,250 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bannerbox {
+  min-width: 16.1333rem;
+  width: 100%;
+  height: 5.3333rem;
+  position: relative;
+  background-image: url('../img/trybanner.jpg');
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/*.bannerbox img{width: 100%;height: 5.3333rem;}*/
+
+@media screen and (min-width: 21.3333rem) {
+  .min-floor {
+    position: fixed;
+    width: 0.8rem;
+    border: 0.0133rem solid #ddd;
+    left: 1.8667rem;
+    top: 3.0533rem;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 21.3333rem)and(min-width: 18.2267rem) {
+  .min-floor {
+    position: fixed;
+    width: 0.8rem;
+    border: 0.0133rem solid #ddd;
+    left: 0.2667rem;
+    top: 3.0533rem;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 18.2267rem) {
+  .min-floor {
+    position: fixed;
+    width: 0.8rem;
+    border: 0.0133rem solid #ddd;
+    left: 0.1333rem;
+    top: 3.0533rem;
+    background-color: #fff;
+  }
+}
+
+.min-floor .select-floor {
+  color: #fff;
+  background-color: #0089fd;
+}
+
+.min-floor div {
+  text-align: center;
+  padding: 0.1067rem 0rem;
+  background-color: #d9ebfa;
+  color: #333;
+  font-weight: bold;
+}
+
+.min-floor ul li {
+  text-align: center;
+  padding: 0.1067rem 0rem;
+  color: #999;
+  cursor: pointer;
+  border-bottom: 0.0133rem dashed #ddd;
+}
+
+.good-num {
+  position: absolute;
+  top: 4.8rem;
+  width: 6.6667rem;
+  height: 0.5333rem;
+  line-height: 0.5333rem;
+  left: 50%;
+  margin-left: -3.3333rem;
+  color: #0093ef;
+  font-size: 0.24rem;
+  text-align: center;
+}
+
+.good-num .redbig {
+  color: #ff3c05;
+  font-size: 0.32rem;
+}
+
+.try-nav {
+  height: 0.6667rem;
+  background-color: #1e415c;
+}
+
+.try-nav ul {
+  overflow: hidden;
+  width: 16.1333rem;
+  margin: 0 auto;
+  height: 0.6667rem;
+  line-height: 0.6667rem;
+  color: #fff;
+}
+
+.try-nav ul li {
+  float: left;
+  width: 12.5%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.try-nav ul li:hover {
+  background-color: #5696cc;
+}
+
+.try-nav ul .select-try {
+  background-color: #5696cc;
+}
+
+.wrapcon {
+  width: 16.1333rem;
+  margin: 0.4rem auto;
+}
+
+.focus {
+  position: absolute;
+  display: inline-block;
+  width: 0.6933rem;
+  padding-left: 0.3733rem;
+  /* background: #eeeeee url(@/assets/img/focus.png)0.0667rem 0.0267rem no-repeat; */
+  top: 0rem;
+  right: 0rem;
+  color: #ff4700;
+  cursor: pointer;
+}
+
+.nofocus {
+  position: absolute;
+  display: inline-block;
+  width: 0.6933rem;
+  padding-left: 0.3733rem;
+  /* background: #eeeeee url(@/assets/img/focus.png) 0.0667rem 0.0267rem no-repeat; */
+  top: 0rem;
+  right: 0rem;
+  cursor: pointer;
+}
+
+.tryfloortitle {
+  height: 0.48rem;
+  /* background: url(@/assets/img/focus.png) 0rem 0rem no-repeat; */
+  color: #fff;
+  overflow: hidden;
+}
+
+.tryfloortitle .title-l {
+  float: left;
+  line-height: 0.48rem;
+  padding-left: 0.4rem;
+}
+
+.tryfloortitle .title-r {
+  float: right;
+  background-color: #5696cc;
+  border-radius: 0.04rem;
+  padding: 0.0267rem;
+  font-size: 0.16rem;
+}
+
+.tryfloortitle .title-r a {
+  color: #fff;
+  padding: 0.0133rem 0.0533rem;
+}
+
+.tryfloortitle .title-r a:hover {
+  color: white;
+}
+
+.tryfloorcon {
+  padding: 0.4rem 0rem;
+  overflow: hidden;
+}
+
+.tryfloorcon ul {
+  width: 16.6667rem;
+  overflow: hidden;
+}
+
+.tryfloorcon ul li {
+  float: left;
+  width: 3.7333rem;
+  margin-right: 0.3467rem;
+  list-style: none;
+  margin-bottom: 0.4rem;
+  border: 0.0133rem solid #e3e3e3;
+  position: relative;
+}
+
+.tryfloorcon ul li:hover {
+  box-shadow: 0rem 0rem 0.0667rem #ddd;
+}
+
+.imgbox {
+  height: 2.8rem;
+}
+
+.imgbox img {
+  width: 100%;
+  height: 100%;
+}
+
+.threeborder {
+  border-top: none;
+}
+
+.namebox {
+  padding: 0.32rem 0.1867rem;
+  line-height: 0.32rem;
+  height: 0.32rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.freetrybtn {
+  cursor: pointer;
+  width: 3.3333rem;
+  margin: 0.2rem auto;
+  background-color: #fe2a00;
+  color: #fff;
+  text-align: center;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  border-radius: 0.0667rem;
+}
+
+.freetrybtn:hover {
+  background-color: #c82d03;
+}
+
+.fixd {
+  /* position: fixed;
+  top: 0rem; */
+  z-index: 10000;
+  width: 100%;
+}

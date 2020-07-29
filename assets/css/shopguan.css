@@ -1,0 +1,49 @@
+.kok input {}
+
+.kok .jiu {
+  display: inline-block;
+  height: 0.72rem;
+  padding: 0 0.2667rem;
+  width: 0.72rem;
+  text-align: center;
+}
+
+.kok li:nth-child(2n) {
+  background: #eee;
+}
+
+.kok li:nth-child(2n+1) {
+  background: #fff;
+}
+
+.kok li:nth-child(1) {
+  background: #eee;
+  padding: 0 0.1333rem;
+}
+
+.kok span {
+  display: inline-block;
+}
+
+.footer input {}
+
+.img-con {
+  width: 0.5333rem;
+  height: 0.5333rem;
+  position: relative;
+}
+
+.img-con img {
+  position: absolute;
+  top: 0.1333rem;
+}
+
+
+
+
+
+
+
+.shop1 img {
+  width: 1.3333rem !important;
+}

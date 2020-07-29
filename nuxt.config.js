@@ -67,7 +67,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-    vendor: ['element-ui'],
     transpile: [/^element-ui/],
+    extractCSS: { allChunks: true }
   }
 }

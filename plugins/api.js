@@ -4,6 +4,4 @@ let http=axios.create({
   baseURL:'url',
   timeout:20000
 })
-export  const res=(methods,url,data)=>{
-   
-}
+export  default http
